@@ -9,7 +9,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <title>Free Share_Blog the Blog Website Template | Home :: w3layouts</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="<?php bloginfo('template_directory'); ?>/css/style.css"
+rel="stylesheet">
 <link href='//fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
 <script src="js/jquery-1.11.1.min.js"></script>
