@@ -1,55 +1,54 @@
-<!DOCTYPE html>
-<html lang="en">
- <head>
-<meta charset="utf-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initialscale=1">
- <meta name="description" content="">
- <meta name="author" content="">
- <title>Blog Template for Bootstrap</title>
- <link
-href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstra
-p.min.css" rel="stylesheet">
-<link href="<?php bloginfo( 'template_directory' );?>/blog.css"
-rel="stylesheet"> <!-- HTML5 shim and Respond.js for IE8 support of
-HTML5 elements and media queries -->
- <!--[if lt IE 9]> <script
-src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></sc
-ript>
- <script
-src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
->
-<![endif]--> <?php wp_head();?>
- </head>
- <body>
- <div class="blog-masthead">
- <div class="container">
-<nav class="blog-nav">
-<a class="blog-nav-item active" href="#">Home</a>
-<a class="blog-nav-item" href="#">New features</a>
-<a class="blog-nav-item" href="#">Press</a> <a class="blognav-item"
-href="#">New hires</a>
-<a class="blog-nav-item" href="#">About</a>
-</nav>
- </div>
- </div>
- <div class="container">
- <div class="blog-header">
-<h1 class="blog-title">The Bootstrap Blog</h1>
-<p class="lead blog-description">The official example template of
-creating a blog with Bootstrap.</p>
- </div> 
- </div> <!-- /.container -->
- <footer class="blog-footer">
-<p>Blog template built for <a
-href="http://getbootstrap.com">Bootstrap</a> by <a
-href="https://twitter.com/mdo">@mdo</a>.</p>
-<p> <a href="#">Back to top</a> </p>
- </footer>
- <script
-src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.mi
-n.js"></script>
-<script
-src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.
-min.js"></script> <?php wp_footer(); ?>
-</body> </html> 
+<!DOCTYPE HTML>
+<head>
+<title>Free Share_Blog the Blog Website Template | Home :: w3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="<?php bloginfo('template_directory'); ?>/css/style.css"
+rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+<div class="header">
+ <div class="header_top">
+    <div class="wrap">
+	  <div class="header-top-left">
+			<div class="logo">
+			     <a href="index.html"><h1>SHARE</h1>
+			     	<h2>The Blog</h2>
+			     </a>
+			</div>
+		<div class="menu">
+		     <ul class="menu bounce">
+		       <li class="active"><a href="index.html" class="active">Home</a></li>
+		       <li><a href="single.html">About</a></li>
+		       <li><a href="single.html">Support</a></li>
+		       <li><a href="contact.html">Contact</a></li>
+		     </ul>
+	   </div>
+	 <div class="clear"></div>
+   </div>  
+	   <div class="header-top-right">
+	   			<div class="social-icons">			
+		                <ul>
+		                	<li><a class="youtube" href="#" target="_blank"><span>Youtube</span></a></li>
+		                    <li><a class="facebook" href="#" target="_blank"><span>Facebook</span> </a></li>
+		                    <li><a class="twitter" href="#" target="_blank"><span>Twitter</span> </a></li>
+		                    <li><a class="skype" href="#" target="_blank"><span>Skype</span> </a></li>
+		                    <li><a class="likedin" href="#" target="_blank"><span>Likedin</span> </a></li>
+		                    <li><a class="vimeo" href="#" target="_blank"><span>vimeo</span> </a></li>
+		                    <div class="clear"></div>
+		                </ul>
+		 		    </div>   	   
+				   			<div class="search_box">
+							    <form>
+									<input type="text" class="text-box" placeholder="Search for Blog"><input type="submit" value="" />
+							    </form>
+						   </div>
+			  		 <div class="clear"></div>
+		  		 </div>
+		  		<div class="clear"></div>
+	  		</div>
+		</div>
+</div>
