@@ -1,4 +1,7 @@
-
+<h1>Title</h1>
+<?php the_title();?>
+<h1>Content</h1>
+<?php the_content();?>
 <div class="wrap">
 	<div class="main">
 		<div class="content">
@@ -77,4 +80,5 @@
 					</div>
 			</div>
 </div>
+
 
