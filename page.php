@@ -1,9 +1,15 @@
-<?php
-$args=array(
-'post_type'=>'livre',
-);
-$your_loop=new WP_Query($args);
-if($your_loop->have_posts()) : while($your_loop->have_posts()) : $your_loop->the_post();
-$meta=get_post_meta($post->ID , 'your_fields' , true);?>
-<!-- contents of Your Post -->
-<?php endwhile; endif; wp_reset_postdata();?>
+<?php get_header(); ?>
+<div class="main page">
+<?php if (have_posts()) : ?>
+<?php while (have_posts()) : share_the_blog(); ?>
+<div class="post">
+<h1 class="post-title"><?php the_title(); ?></h1>
+<div class="post-content">
+<?php the_content(); ?>
+</div>
+</div>
+<?php endwhile; ?>
+<?php endif; ?>
+</div>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>

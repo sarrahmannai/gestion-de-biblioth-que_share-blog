@@ -1,9 +1,9 @@
 <?php
 function create_post_your_post(){
- register_post_type('your_post',
+ register_post_type('post-grid',
  array(
  'labels'=>array(
- 'name'=>__('Your Post')
+ 'name'=>__('Your Post'),
  ),
  'public'=>true,
  'hierarchical'=>true,
@@ -20,7 +20,7 @@ function create_post_your_post(){
  )
  )
 );
- register_taxonomy_for_object_type('category','your_post');
- register_taxonomy_for_object_type('post_tag','your_post');
+ register_taxonomy_for_object_type('category','post-grid');
+ register_taxonomy_for_object_type('post_tag','post-grid');
 }
 add_action('init','create_post_your_post');

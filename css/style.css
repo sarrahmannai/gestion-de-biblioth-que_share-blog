@@ -992,10 +992,10 @@ ul.menu a {
 	cursor:pointer;
 }
 .view-back span.views {
-	background:url(../images/views.png) no-repeat 160px 18px;
+	background:url(../images/1.jpg) no-repeat 160px 18px;
 }
 .view-back span.likes {
-	background:url(../images/likes.png) no-repeat 160px 5px;
+	background:url(../images/12.png) no-repeat 160px 5px;
 }
 .view-back span.link {
 	background:url(../images/link.png) no-repeat 160px 8px;
@@ -1014,7 +1014,7 @@ ul.menu a {
 	border-radius: 50%;
 	width: 30px;
 	height: 30px;
-	background:url(../images/arrow-right.png) no-repeat 10px;
+	background:url(../images/blog-img.jpg) no-repeat 10px;
 	line-height: 22px;
 	text-align: center;
 }

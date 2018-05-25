@@ -15,8 +15,8 @@ rel="stylesheet">
     <div class="wrap">
 	  <div class="header-top-left">
 			<div class="logo">
-			     <a href="index.html"><h1>SHARE</h1>
-			     	<h2>The Blog</h2>
+			     <a href="index.html"><h1>bibliotheque</h1>
+			     	<h2>bibliotheque </h2>
 			     </a>
 			</div>
 		<div class="menu">
